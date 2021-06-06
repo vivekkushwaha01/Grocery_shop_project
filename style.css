@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:hsl(0, 2%, 91%);
+}
+.logo img{
+border-radius:5px;
+border:2px solid red;
+}
+
+.navbar{
+    display:flex;
+    align-items:center;
+    padding:20px;
+    background-color:#f8ab1b;
+   
+}
+.boxbtn{
+    display:inline-block;
+    margin-right:50px;
+    
+}
+.searchbox{
+    width:300px;
+    padding:8px;
+    text-align:center;
+    border:1px solid black;
+    border-radius:5px;
+}
+.searchbtn{
+    padding:8px;
+    color:blue;
+    background-color:#ffffff;
+    border:1px solid black;
+    border-radius:5px;
+}
+nav{
+    flex:1;
+    text-align:right;
+}
+nav ul{
+    display:inline-block;
+    list-style:none;
+}
+nav ul li{
+    display:inline-block;
+    margin-right:20px;
+    
+}
+nav ul li a,li span{
+    font-size:20px;
+    text-decoration:none;
+    color:white;
+}
+
+nav ul li a:hover{
+    cursor:pointer;
+    text-decoration:underline;
+    color:#ff0000;
+}
+nav ul li span:hover{
+    cursor:pointer;
+    text-decoration:underline;
+    color:#ff0000;
+}
+p{
+    color:hsl(0, 0%, 33%);
+}
+.dropdown{
+    position:relative;
+    display:inline-block;
+    }
+    .dropdown_content{
+        display:none;
+        position:absolute;
+        background-color:hsl(0, 0%, 33%);
+        min-width:160px;
+        text-align: center;
+    }
+    .dropdown:hover .dropdown_content{
+        display:block;
+    }
+
+
+/*----------------------------------------------------footer-------------------------------------------------------*/
+
+.footer{
+    margin-top:20px;
+    color:gray;
+    background-color:black;
+}
+.col-1,.col-2,.col-3,.col-4{
+    float:right;
+    width:25%;
+}
+.col-2 ul li{
+    list-style-type:none;
+    color:white;
+}
+.col-2 ul li a{
+    text-decoration:none;
+    color:#c9c6c6;
+}
+.col-2 ul li a:hover{
+    text-decoration:underline;
+}
+.footer h3{
+    margin:10px;
+    color:white;
+    
+}
+.footer p{
+    color:#c9c6c6;
+    
+}
+.copyright{
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------body------------------------------*/
+
+
+.container1{
+    margin:20px 20px;
+    background-color:white;
+    border:1px solid black;
+}
+.container1 .row{
+    margin:10px 10px;
+}
+h2{
+    padding:8px;
+}
+.col-5{
+    display:inline-block;
+    background-color:#f7f4f4;
+    width:24.5%;
+}
+.col-5 img{
+    padding:5px;
+}
+.col-5 a{
+    text-decoration: none;
+}
+.col-5:hover{
+    box-shadow:2px 2px gray;
+}
+
+/*---------------------------------------------------contact---------------------------------------------------------------------*/
+.container2{
+    margin:20px 20px;
+    background-color:white;
+    border:1px solid black;
+}
+.container2 .contact1{
+    text-align: center;
+   
+}
+.container2 .contact1 p{
+    padding:4px;
+}
